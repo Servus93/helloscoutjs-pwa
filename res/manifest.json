@@ -1,0 +1,15 @@
+{
+  "short_name": "Hello World",
+  "name": "This is a PWA example for ScoutJS",
+  "icons": [
+    {
+      "src": "icon.png",
+      "type": "image/png",
+      "sizes": "200X200"
+    }
+  ],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#fe9915",
+  "theme_color": "#0082a1"
+}
