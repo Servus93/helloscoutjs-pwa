@@ -10,7 +10,7 @@ First of all Read the **Getting started** Guide for the helloscoutjs Programm. O
 ## Installing
 1. Clone the repository to your local machine using `git clone https://github.com/Servus93/helloscoutjs-pwa.git`
 2. Navigate to the project directory using `cd helloscoutjs-pwa`
-3. Install the dependencies using ```npm install```
+3. Install the dependencies using ```npm install --ignore-scripts```
 ### Running the app
 Start the development server using `npm start`
 Open a web browser and navigate to `http://localhost:8080`
