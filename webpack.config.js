@@ -19,7 +19,7 @@ module.exports = (env, args) => {
     clientsClaim: true,
     skipWaiting: true,
     swDest: 'sw.js',
-    exclude:['*theme.js'],
+    exclude: [/-theme.js$/, /\.map$/, /^manifest.*\.js$/],
     ignoreURLParametersMatching: [
       /^utm_/,
       /^fbclid$/
