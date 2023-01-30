@@ -12,7 +12,7 @@ First of all Read the **Getting started** Guide for the helloscoutjs Programm. O
 2. Navigate to the project directory using `cd helloscoutjs-pwa`
 3. Install the dependencies using ```npm install --ignore-scripts```
 ## Building and deploying the app
-To build the production version of the app, run `npm run build`. The built files will be stored in the `dist` directory. You can then deploy the contents of the `dist` directory to a web server or host it on a platform like GitHub Pages.
+To build the production version of the app, run `npm run build:dev`. The built files will be stored in the `dist` directory. You can then deploy the contents of the `dist` directory to a web server or host it on a platform like GitHub Pages.
 > Use `npm run build:dev:watch` to have these files automatically updated when the corresponding source files change.
 ## Running the app
 Start the development server using `npm run serve`
