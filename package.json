@@ -6,9 +6,11 @@
   },
   "devDependencies": {
     "@eclipse-scout/cli": "^22.0.2",
-    "live-server": "^1.2.1"
+    "live-server": "^1.2.1",
+    "workbox-cli": "^6.5.4"
   },
   "dependencies": {
-    "@eclipse-scout/core": "^22.0.2"
+    "@eclipse-scout/core": "^22.0.2",
+    "workbox-webpack-plugin": "^6.5.4"
   }
 }
